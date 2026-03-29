@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luminary — Premium Learning Platform</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- Animate.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- SCROLL TO TOP -->
+    <button id="scroll-top" title="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- DARK / LIGHT TOGGLE -->
+    <button id="theme-toggle" title="Toggle theme">
+        <i class="fa-solid fa-moon" id="theme-icon"></i>
+    </button>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Luminary<span>.</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="why.html">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-nav-cta" href="courses.html">Start Learning</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section id="why" class="section-pad">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Our Edge</span>
+                <h2>Why Choose <span class="gradient-text">Luminary</span></h2>
+                <p>We're not just another e-learning platform — we're your career accelerator.</p>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="why-card">
+                        <div class="why-icon-wrap" style="--icon-color: #6366f1;">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h4>Fast-Track Learning</h4>
+                        <p>Curated paths cut the fluff. Learn only what matters to reach your goal 3× faster.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+                    <div class="why-card">
+                        <div class="why-icon-wrap" style="--icon-color: #22d3ee;">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <h4>Industry Certificates</h4>
+                        <p>Earn certificates recognized by 500+ top companies. Add them directly to LinkedIn.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+                    <div class="why-card">
+                        <div class="why-icon-wrap" style="--icon-color: #ec4899;">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h4>24 / 7 Mentorship</h4>
+                        <p>Get help from expert mentors anytime. Live Q&A, code reviews, and career coaching included.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="why-card">
+                        <div class="why-icon-wrap" style="--icon-color: #f59e0b;">
+                            <i class="fa-solid fa-infinity"></i>
+                        </div>
+                        <h4>Lifetime Access</h4>
+                        <p>Pay once, learn forever. All future updates included at zero extra cost.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+                    <div class="why-card">
+                        <div class="why-icon-wrap" style="--icon-color: #10b981;">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h4>Global Community</h4>
+                        <p>Join 50K+ learners from 120+ countries. Collaborate, network, and grow together.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+                    <div class="why-card">
+                        <div class="why-icon-wrap" style="--icon-color: #a855f7;">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <h4>Learn Anywhere</h4>
+                        <p>Our mobile-first platform works on any device. Download lessons and learn offline too.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">Luminary<span>.</span></div>
+                    <p class="footer-desc">Empowering 50,000+ learners worldwide to build the skills that shape
+                        tomorrow.</p>
+                    <div class="footer-socials">
+                        <a href="https://x.com" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://pk.linkedin.com/" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://youtube.com/" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1">
+                    <h5>Platform</h5>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="why.html">Features</a></li>
+                        <li><a href="courses.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="why.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Luminary Inc. All rights reserved.</span>
+                <span>Made by Hassan Shahzad <i class="fa-solid fa-heart" style="color:#ec4899;"></i> for
+                    learners</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
